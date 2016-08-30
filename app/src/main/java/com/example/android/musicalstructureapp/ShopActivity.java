@@ -34,7 +34,7 @@ public class ShopActivity extends AppCompatActivity {
         TextView contentTextView = (TextView) findViewById(R.id.music_shop_content);
         String content = "";
         content += "I have an issue about buying a music online";
-        content += ")\n";
+        content += "\n";
         content += "I need to find a way for user to pay for buying a music.";
         contentTextView.setText(content);
 
