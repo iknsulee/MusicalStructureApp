@@ -15,8 +15,12 @@
         android:text="Music List" />
 
     <TextView
-        style="@style/ContentStyle"
+        style="@style/SubHeadingStyle"
         android:text="This screen shows a list of music." />
+
+    <TextView
+        style="@style/ContentStyle"
+        android:text="Technical hurdles..." />
 
     <Button
         android:id="@+id/main_to_now_playing"

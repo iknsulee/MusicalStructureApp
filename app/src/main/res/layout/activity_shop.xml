@@ -15,8 +15,12 @@
         android:text="Music Shop" />
 
     <TextView
+        style="@style/SubHeadingStyle"
+        android:text="this is music shop screen. You can buy a music." />
+
+    <TextView
         style="@style/ContentStyle"
-        android:text="this is music shop screen" />
+        android:text="Technical hurdles..." />
 
     <LinearLayout
         android:layout_width="match_parent"

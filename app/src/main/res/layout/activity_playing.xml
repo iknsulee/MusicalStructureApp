@@ -15,8 +15,12 @@
         android:text="Now Playing" />
 
     <TextView
+        style="@style/SubHeadingStyle"
+        android:text="this is now playing screen. You can view Music detail information and buy a music." />
+
+    <TextView
         style="@style/ContentStyle"
-        android:text="this is now playing screen" />
+        android:text="Technical hurdles..." />
 
     <LinearLayout
         android:layout_width="match_parent"
