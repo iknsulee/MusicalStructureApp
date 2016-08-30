@@ -33,9 +33,9 @@ public class PlayingActivity extends AppCompatActivity {
 
         TextView contentTextView = (TextView) findViewById(R.id.music_play_content);
         String content = "";
-        content += "I have technical hurdles(";
-        content += ")\n";
-        content += "So I need to find ";
+        content += "I have to solve a problem like this, keeping playing from music list, getting a file detail information";
+        content += "\n";
+        content += "So I need to keep playing music, get a detail information.";
         contentTextView.setText(content);
     }
 }
