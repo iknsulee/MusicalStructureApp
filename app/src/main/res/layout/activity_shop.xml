@@ -19,8 +19,8 @@
         android:text="this is music shop screen. You can buy a music." />
 
     <TextView
-        style="@style/ContentStyle"
-        android:text="Technical hurdles..." />
+        android:id="@+id/music_shop_content"
+        style="@style/ContentStyle" />
 
     <LinearLayout
         android:layout_width="match_parent"

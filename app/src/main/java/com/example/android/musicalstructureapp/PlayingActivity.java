@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class PlayingActivity extends AppCompatActivity {
 
@@ -30,5 +31,11 @@ public class PlayingActivity extends AppCompatActivity {
             }
         });
 
+        TextView contentTextView = (TextView) findViewById(R.id.music_play_content);
+        String content = "";
+        content += "I have technical hurdles(";
+        content += ")\n";
+        content += "So I need to find ";
+        contentTextView.setText(content);
     }
 }

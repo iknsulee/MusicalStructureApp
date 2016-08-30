@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class ShopActivity extends AppCompatActivity {
 
@@ -29,6 +30,13 @@ public class ShopActivity extends AppCompatActivity {
                 startActivity(playingIntent);
             }
         });
+
+        TextView contentTextView = (TextView) findViewById(R.id.music_shop_content);
+        String content = "";
+        content += "I have technical hurdles(";
+        content += ")\n";
+        content += "So I need to find ";
+        contentTextView.setText(content);
 
     }
 }

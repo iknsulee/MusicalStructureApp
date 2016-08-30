@@ -19,8 +19,8 @@
         android:text="this is now playing screen. You can view Music detail information and buy a music." />
 
     <TextView
-        style="@style/ContentStyle"
-        android:text="Technical hurdles..." />
+        android:id="@+id/music_play_content"
+        style="@style/ContentStyle" />
 
     <LinearLayout
         android:layout_width="match_parent"
