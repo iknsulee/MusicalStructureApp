@@ -15,11 +15,8 @@
         android:text="Music List" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="This screen shows a list of music."
-        android:textSize="14sp" />
+        style="@style/ContentStyle"
+        android:text="This screen shows a list of music." />
 
     <Button
         android:id="@+id/main_to_now_playing"

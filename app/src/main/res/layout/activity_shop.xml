@@ -15,8 +15,7 @@
         android:text="Music Shop" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ContentStyle"
         android:text="this is music shop screen" />
 
     <LinearLayout

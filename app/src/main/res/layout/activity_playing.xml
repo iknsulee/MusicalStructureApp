@@ -15,8 +15,7 @@
         android:text="Now Playing" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ContentStyle"
         android:text="this is now playing screen" />
 
     <LinearLayout
