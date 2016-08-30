@@ -11,6 +11,10 @@
     tools:context="com.example.android.musicalstructureapp.PlayingActivity">
 
     <TextView
+        style="@style/HeadingStyle"
+        android:text="Now Playing" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="this is now playing screen" />

@@ -11,13 +11,19 @@
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
     <TextView
+        style="@style/HeadingStyle"
+        android:text="Music List" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This screen shows a list of music." />
+        android:layout_marginTop="5dp"
+        android:text="This screen shows a list of music."
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/main_to_now_playing"
-        android:text="Now Playing"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Now Playing" />
 </LinearLayout>
